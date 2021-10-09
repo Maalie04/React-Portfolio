@@ -1,4 +1,4 @@
-import React, { useState };
+import React, { useState } from 'react';
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
