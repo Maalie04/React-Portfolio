@@ -1,7 +1,38 @@
 import React,{ useEffect } from "react";
 import PortfolioCard from './PortfolioCard';
 
-const p
+const portfolioItems = [
+    {
+        title: '',
+        repo: '',
+        deployed: '',
+    },
+    {
+        title: '',
+        repo: '',
+        deployed: '',
+    },
+    {
+        title: '',
+        repo: '',
+        deployed: '',
+    },
+    {
+        title: '',
+        repo: '',
+        deployed: '',
+    },
+    {
+        title: '',
+        repo: '',
+        deployed: '',
+    },
+    {
+        title: '',
+        repo: '',
+        deployed: '',
+    },
+];
 
 
 export default function Portfolio(props) {

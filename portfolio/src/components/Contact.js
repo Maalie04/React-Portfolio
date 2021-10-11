@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { validateEmail } from '../utils/helpers';
+import '../css/Contact.css';
+
 export default function Contact(props) {
 	const [name, setName] = useState("");
 	const [email, setEmail] = useState("");
@@ -55,7 +57,7 @@ export default function Contact(props) {
 	};
 
 	return (
-		<div>
+		<div className='backgroud'>
 			<div className="container col-xl-10 col-xxl-8 px-4 py-5">
 				<div className="row align-items-center g-lg-5 py-5">
 					<div className="col-lg-7 text-center text-lg-start">
