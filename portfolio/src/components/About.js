@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import portfoliopic from "../";
+import portfoliopic from  "";
 
 export default function About(props) {
   useEffect(() => {
