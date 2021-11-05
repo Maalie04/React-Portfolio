@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 
 
+
 export default function About(props) {
   useEffect(() => {
     document.title = `${props.title}`;
@@ -8,7 +9,7 @@ export default function About(props) {
   return (
     <div>
       <div className="px-4 py-5 my-5 text-center">
-        <img className="picture" src= {} alt=""/>
+        <img className="picture" src= {Portfolio-Image.jpg} alt=""/>
         <h1 className="display-5 fw-bold">About</h1>
         <div className="col-lg-6 mx-auto">
           <p>
