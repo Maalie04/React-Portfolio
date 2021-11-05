@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
-import profilepic from "../../public/images/";
-
+import profilepic from "../../images/profilepic;"
 
 export default function About(props) {
   useEffect(() => {
@@ -9,8 +8,10 @@ export default function About(props) {
   return (
     <div>
       <div className="px-4 py-5 my-5 text-center">
-        <img className="picture" src= {profilepic} alt=""/>
+      
         <h1 className="display-5 fw-bold">About</h1>
+        <img className="picture" src= {profilepic} alt=""/>
+
         <div className="col-lg-6 mx-auto">
           <p>
             Hello, my name is Jamaal Lawson and I am a full-stack web developer. With background
