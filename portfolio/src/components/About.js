@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import portfolioimg from "../../src/images/portfolioimg";
+
 
 export default function About(props) {
   useEffect(() => {
@@ -8,7 +8,7 @@ export default function About(props) {
   return (
     <div>
       <div className="px-4 py-5 my-5 text-center">
-        <img className="picture" src= {portfolioimg} alt=""/>
+        <img className="picture" src= {} alt=""/>
         <h1 className="display-5 fw-bold">About</h1>
         <div className="col-lg-6 mx-auto">
           <p>
