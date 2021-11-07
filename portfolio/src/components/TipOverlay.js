@@ -27,30 +27,30 @@ export default function TipOverlay() {
         }
     };
     return (
-        <div className="d-flex flex-row">
-        {sites.map((site) => (
-            <li className="ms-3">
-                <OverlayTrigger
-                    key={site.name}
-                    placement="top"
-                    overlay={
-                        <Tooltip id={`tooltip-${site.name}`}>
-                            {site.name}
-                        </Tooltip>
-                    }
-                >
-                    <button className="footer-icon">
-                        <a
-                            className="text-muted"
-                            target="blank"
-                            href={site.url}
-                        >
-                            {renderIcon(site)}
-                        </a>
-                    </button>
-                </OverlayTrigger>
-            </li>
-        ))}
-    </div>
-);
+		<div className="d-flex flex-row">
+			{sites.map((site) => (
+				<li className="ms-3">
+					<OverlayTrigger
+						key={site.name}
+						placement="top"
+						overlay={
+							<Tooltip id={`tooltip-${site.name}`}>
+								{site.name}
+							</Tooltip>
+						}
+					>
+						<button className="footer-icon">
+							<a
+								className="text-muted"
+								target="blank"
+								href={site.url}
+							>
+								{renderIcon(site)}
+							</a>
+						</button>
+					</OverlayTrigger>
+				</li>
+			))}
+		</div>
+	);
 }

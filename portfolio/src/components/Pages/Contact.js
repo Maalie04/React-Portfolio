@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { validateEmail } from "../../utils/helpers";
+// import { Link } from "react-router-dom";
 // import "../css/Contact.css";
 
 export default function Contact(props) {
@@ -62,6 +63,18 @@ export default function Contact(props) {
         <div className="row align-items-center g-lg-5 py-5">
           <div className="col-lg-7 text-center text-lg-start">
             <h1 className="display-4 fw-bold lh-1 mb-3">Contact Me</h1>
+            <h3 className="display-11">Cell (301-751-6769)</h3>
+
+            <h3 className="display-11">https://github.com/Maalie04/</h3>
+           
+
+           
+            <h3 className="display-11"> https://www.linkedin.com/in/jamaal-lawson-b40659201/alie04/  </h3>
+         
+
+            
+            <h3 className="display-11">  Email: maaliemaal@gmail.com   </h3>
+          
           </div>
           <div className="col-md-10 mx-auto col-lg-5">
             <form className="p-4 p-md-5 border rounded-3 bg-light">

@@ -17,6 +17,16 @@
   box-shadow: 5px 5px 8px #000;
 }
 
+.resume{
+  height: 100vh;
+  width: 100vh;
+  box-shadow: 5px 5px 8px #000;
+}
+
+.display-4 {
+margin-top: -275px;
+margin-left: 85px;
+}
 .footer-icon {
   background-color: transparent;
   border: none;
