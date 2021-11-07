@@ -1,4 +1,5 @@
 # React Portfolio
+![License](https://img.shields.io/badge/License-MIT-blue.svg "License Badge")
 
 ## Description
 In this project, I created a portfolio to display my completed web development projects. This was built using ```React```, and the style layout is mobile-first.
@@ -10,10 +11,16 @@ The page is responsive, and portions of the page (```<header>```, ```<nav>```, a
 The titles, languages, and link for the projects are initially hidden, but transition to fully opaque when a project image is hovered over, and fade away once the mouse is moved away from the image.
 
 ## Project Link
-The project can be viewed at <https://github.com/Maalie04/React-Portfolio>.
+The project can be viewed at <https://github.com/Maalie04/React-Portfolio>
+
+## Technologies
+
+* [Node.JS](https://nodejs.org/en/docs/)
+* [ReactJS](https://reactjs.org/)
+
 
 ## Screenshot
-![Jamaal Lawson's Portfolio ](./src/images/react-portfolio.png)
+![Jamaal Lawson's Portfolio ](./src/images/screenShot.png)
 
 ## License
 Copyright 2021 Jamaal Lawson
