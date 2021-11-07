@@ -13,7 +13,7 @@ The titles, languages, and link for the projects are initially hidden, but trans
 The project can be viewed at <https://github.com/Maalie04/React-Portfolio>.
 
 ## Screenshot
-![Jamaal Lawson's Portfolio provides web development information about Todd Harvey.](./src/images/react-portfolio.png)
+![Jamaal Lawson's Portfolio ](./src/images/react-portfolio.png)
 
 ## License
 Copyright 2021 Jamaal Lawson
