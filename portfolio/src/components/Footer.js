@@ -1,5 +1,5 @@
 import React from "react";
-import { TipOverlay } from "./Navagation";
+// import { TipOverlay } from "./Navagation";
 
 export default function Footer() {
   return (

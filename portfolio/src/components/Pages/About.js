@@ -1,16 +1,15 @@
 import React, { useEffect } from "react";
-import profilepic from "../../images/profilepic;"
-
+import profilepic from "../../imgages/profilepic";
 export default function About(props) {
   useEffect(() => {
     document.title = `${props.title}`;
-  });
+  }); 
   return (
     <div>
       <div className="px-4 py-5 my-5 text-center">
       
         <h1 className="display-5 fw-bold">About</h1>
-        <img className="picture" src= {profilepic} alt=""/>
+        <img className="picture" src={profilepic} alt= "Jamaal Lawson"/>
 
         <div className="col-lg-6 mx-auto">
           <p>

@@ -7,6 +7,12 @@
   pointer-events: none;
 }
 
+.picture{
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  box-shadow: 5px 5px 8px #000;
+}
 
 
 @media (prefers-reduced-motion: no-preference) {

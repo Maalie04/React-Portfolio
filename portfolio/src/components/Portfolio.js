@@ -4,7 +4,7 @@ import PortfolioCard from './PortfolioCard';
 const portfolioItems = [
     {
         title: '',
-        repo: '',
+        repo: 'https://github.com/Maalie04/final-project',
         deployed: '',
     },
     {
