@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Navbar from "./components/Navbar";
-import Portfolio from "./components/Portfolio";
-import Resume from "./components/Resume";
-import Home from "./components/Home";
-import Footer from "./components/Footer";
+import About from "../src/components/Pages/About";
+import Contact from "../src/components/Pages/Contact";
+import Navbar from "../src/components/Navbar";
+import Portfolio from "../src/components/Portfolio";
+import Resume from "../src/components/Pages/Resume";
+import Home from "../src/components/Home";
+import Footer from "../src/components/Footer";
 import "./App.css";
 
 function App() {
@@ -33,7 +33,7 @@ function App() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div className="App">
+    <div className="App d-flex flex-column justify-content-between">
       <Navbar
         currentPage={currentPage}
         handlePageChange={handlePageChange}

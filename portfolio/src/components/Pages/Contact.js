@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { validateEmail } from "../utils/helpers";
-import "../css/Contact.css";
+import { validateEmail } from "../../utils/helpers";
+// import "../css/Contact.css";
 
 export default function Contact(props) {
   const [name, setName] = useState("");

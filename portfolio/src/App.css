@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  height: 100vh;
+  margin: 0;
+  background-color: none;
 }
 
 .App-logo {
@@ -14,6 +17,16 @@
   box-shadow: 5px 5px 8px #000;
 }
 
+.footer-icon {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  margin: 5px;
+}
+
+.footer-list {
+  flex-direction: row;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
