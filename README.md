@@ -19,9 +19,6 @@ The project can be viewed at <https://github.com/Maalie04/React-Portfolio>
 * [ReactJS](https://reactjs.org/)
 
 
-## Screenshot
-![Jamaal Lawson's Portfolio ](./src/images/screenShot.png)
-
 ## License
 Copyright 2021 Jamaal Lawson
 
