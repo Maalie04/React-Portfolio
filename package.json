@@ -28,7 +28,7 @@
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"
 	},
-	"homepage": "https://Maalie04.github.io/react-portfolio/",
+	"homepage": " https://maalie04.github.io/React-Portfolio/",
 	"eslintConfig": {
 		"extends": [
 			"react-app",
