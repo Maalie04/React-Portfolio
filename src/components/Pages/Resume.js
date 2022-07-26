@@ -9,7 +9,7 @@ export default function Resume() {
         <div className="col-lg-6 mx-auto"> 
         <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
 
-        <a href={process.env.PUBLIC_URL+"/Jamaal_Lawson_Resume_2.PDF"} download="Jamaal_Lawson_Resume_2.PDF" className="btn btn-outline-secondary btn-lg px-4">
+        <a href={process.env.PUBLIC_URL+"/Jamaal_Lawson_RESUME.pdf"} download="Jamaal_Lawson_RESUME.pdf" className="btn btn-outline-secondary btn-lg px-4">
               Download PDF
             </a>
 					</div>

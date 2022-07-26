@@ -8,7 +8,7 @@ export default function Home(props) {
     });
     return (
         <div> 
-        <h1 className="display-5 fw-bold home-title">Jamaal Lawson  </h1>
+        <h1 className="display-5 fw-bold home-title"> Jamaal Lawson</h1>
         </div>
     );
 }

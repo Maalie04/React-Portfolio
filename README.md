@@ -11,7 +11,7 @@ The page is responsive, and portions of the page (```<header>```, ```<nav>```, a
 The titles, languages, and link for the projects are initially hidden, but transition to fully opaque when a project image is hovered over, and fade away once the mouse is moved away from the image.
 
 ## Project Link
-The project can be viewed at <https://github.com/Maalie04/React-Portfolio>
+The project can be viewed at <https://maalie04.github.io/React-Portfolio/>
 
 ## Technologies
 
